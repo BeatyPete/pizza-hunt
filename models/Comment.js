@@ -15,7 +15,7 @@ const ReplySchema = new Schema(
     },
     writtenBy: {
       type: String,
-      required: trues
+      required: true
     },
     createdAt: {
       type: Date,
